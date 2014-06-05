@@ -8,6 +8,7 @@ module.exports = function(grunt) {
 		sass: {
 			dist: {
 				files: {
+					'docs/stylesheets/docs.css': 'docs/stylesheets/docs.scss'
 				},
 				options: {
 					noCache: true,
@@ -18,7 +19,7 @@ module.exports = function(grunt) {
 
 		watch: {
 			css: {
-				files: 'src/*.scss',
+				files: 'docs/*.scss',
 				tasks: ['sass']
 			}
 		}
