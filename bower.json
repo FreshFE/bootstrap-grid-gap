@@ -1,0 +1,22 @@
+{
+  "name": "bootstrap-grid-gap",
+  "version": "0.1.0",
+  "authors": [
+    "MinoWu <minowu@foxmail.com>"
+  ],
+  "description": "bootstrap grid gap, margin and padding",
+  "keywords": [
+    "bootstrap"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "bootstrap-sass-twbs": "~3.*.*"
+  }
+}
