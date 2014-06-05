@@ -1,0 +1,60 @@
+//== variables
+$grid-gap-top: $line-height-computed !default;
+$grid-gap-right: $line-height-computed !default;
+$grid-gap-left: $line-height-computed !default;
+$grid-gap-bottom: $line-height-computed !default;
+
+//== padding
+.no-padding {
+	padding: 0 !important;
+}
+
+.no-padding-top {
+	padding-top: 0;
+}
+
+.no-padding-bottom {
+	padding-bottom: 0;
+}
+
+.no-padding-x {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.no-padding-y {
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+//== margin
+
+.no-margin {
+	margin: 0 !important;
+}
+
+.no-margin-top {
+	margin-top: 0;
+}
+
+.no-margin-bottom {
+	margin-bottom: 0;
+}
+
+.no-margin-x {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.no-margin-y {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.margin-top {
+	margin-top: $grid-gap-top;
+}
+
+.margin-bottom {
+	margin-bottom: $grid-gap-bottom;
+}
